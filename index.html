@@ -10,6 +10,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>+Project</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -19,10 +20,17 @@
         <div class="weather-app">
           <div class="row">
             <div class="col-6">
-              <h1>London</h1>
+              <h1 id="city"></h1>
               <ul>
-                <li><span> Thursday 12:36 </span>, cloudy</li>
-                <li><span> Humidity: 87%, Wind: 2.57 km/h</span></li>
+                <li>
+                  <span> Thursday 12:36</span>, <span id="description"></span>
+                </li>
+                <li>
+                  <span>
+                    Humidity: <span id="humidity"></span>%, Wind:
+                    <span id="speed"></span> km/h</span
+                  >
+                </li>
               </ul>
             </div>
             <div class="col-6">
@@ -32,7 +40,7 @@
                     src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                     alt="sunny"
                   />
-                  <span class="temperature">18</span>
+                  <span class="temperature" id="temperature"></span>
                   <span class="unit">°C | <a href="#"> °F </a></span>
                 </div>
               </div>
