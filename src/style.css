@@ -2,7 +2,7 @@ h1 {
   margin: 20px 0 10px;
   line-height: 29px;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 40px;
   line-height: 48px;
   color: #272142;
 }
@@ -25,7 +25,7 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 30px auto;
 }
 .weather-app {
@@ -37,20 +37,20 @@ li:first-letter {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 
   color: #212121;
-  margin-left: 1px;
-  font-weight: 400;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 74px;
   line-height: 1;
+  margin: -17px;
 }
 .unit {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   color: #212121;
-  font-size: 28px;
+  font-size: 23px;
   line-height: 36px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -48px;
 }
 .weather-image .img {
   height: 64px;
