@@ -21,8 +21,6 @@ li {
   line-height: 20px;
   list-style: none;
 }
-li:first-letter {
-}
 
 .weather-app-wrapper {
   max-width: 800px;
