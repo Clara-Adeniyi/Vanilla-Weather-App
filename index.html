@@ -33,7 +33,7 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-success w-100 mb-5"
+                  class="btn btn-success w-100 mb-3"
                 />
               </div>
             </div>
@@ -57,9 +57,14 @@
             <div class="col-6">
               <div class="tempereture-container d-flex justify-content-end">
                 <div class="weather-image">
-                  <img src="" alt="sunny" id="icon" />
+                  <span class="img"><img src="" alt="sunny" id="icon" /></span>
                   <span class="temperature" id="temperature"></span>
-                  <span class="unit">°C | <a href="#"> °F </a></span>
+                  <span class="unit">
+                    <a href="#" id="celcius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link" class="inactive"
+                      >°F</a
+                    ></span
+                  >
                 </div>
               </div>
             </div>
